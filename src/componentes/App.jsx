@@ -3,10 +3,11 @@ function App() {
     return (<>
     <NavBar/>
     <div>
-        <h2>Bienvenido a mi pagina Web JSL</h2>
+        <h2>Bienvenido a mi pagina Web Jesus Soto Ledezma</h2>
         <hr />
         <p>
             Hora de aventura
+
             Llama a tus amigos
 
             Vamos a tierras muy lejanas
