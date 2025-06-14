@@ -1,33 +1,24 @@
-name: Despliega GitHub Pages
-
-on:
+name: Despliega
+ on:
   push:
     branches:
       - integral
-  pull_request:
-    branches:
-      - integral
-  workflow_dispatch:
-
-jobs:
+ jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          ref: integral
-
-      - name: Set up Node.js 18
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
-
       - name: Install dependencies
-        run: npm ci
-
-      - name: Build & Deploy
-        run: npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm install
+      - name: Build the app
+        run: npm run build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
