@@ -1,7 +1,5 @@
-import NavBar from "./NavBar";
-function App() {
+function Home() {
     return (<>
-    <NavBar/>
     <div>
         <h2>Bienvenido a mi pagina Web Jesus Soto Ledezma</h2>
         <hr />
@@ -27,4 +25,4 @@ function App() {
     </>)
 }
 
-export default App;
+export default Home;

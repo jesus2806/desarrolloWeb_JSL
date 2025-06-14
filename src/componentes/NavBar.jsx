@@ -25,15 +25,16 @@ function NavBar() {
               <a className="nav-link" href="/personajes">Personajes</a>
             </li>
             <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
+              <button
+                className="nav-link dropdown-toggle btn btn-link"
+                type="button"
+                id="lugaresDropdown"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                style={{ textDecoration: 'none', color: 'inherit' }}
               >
                 Lugares
-              </a>
+              </button>
               <ul className="dropdown-menu bg-success">
                 <li>
                   <a className="dropdown-item text-white" href="/lugar/bosque-hongos">
