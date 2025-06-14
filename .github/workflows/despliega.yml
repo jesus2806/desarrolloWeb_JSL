@@ -1,9 +1,9 @@
 name: Despliega
- on:
+on:
   push:
     branches:
       - integral
- jobs:
+jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
