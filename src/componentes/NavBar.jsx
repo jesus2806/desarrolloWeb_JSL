@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-success navbar-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">Hora de Aventura</a>
+        <a className="navbar-brand">Hora de Aventura</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -18,28 +18,20 @@ function NavBar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">Inicio</a>
+              <a className="nav-link active" aria-current="page">Inicio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/personajes">Personajes</a>
+              <a className="nav-link">Personajes</a>
             </li>
             <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Lugares
-              </a>
               <ul className="dropdown-menu bg-success">
                 <li>
-                  <a className="dropdown-item text-white" href="/lugar/bosque-hongos">
+                  <a className="dropdown-item text-white">
                     Bosque de los Hongos
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item text-white" href="/lugar/ooo">
+                  <a className="dropdown-item text-white">
                     Tierra de Ooo
                   </a>
                 </li>
