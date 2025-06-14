@@ -17,7 +17,7 @@ function App() {
             Y diversión siempre tendrás
 
             ¡Es hora de aventura!
-            yupiiiiiii!!
+            yupiiiiiii!!!!!!
         </p>
          <img 
             src="https://www.clacktv.cl/vtrcontent/media/2022/08/personajes-hora-de-aventura.png" 
