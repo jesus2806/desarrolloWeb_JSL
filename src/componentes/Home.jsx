@@ -15,12 +15,11 @@ function Home() {
             Y diversión siempre tendrás
 
             ¡Es hora de aventura!
-<<<<<<< HEAD:src/componentes/App.jsx
-            Cambios de prueba
-=======
 
-            16 de junio
->>>>>>> 22a1ac7266039aaf923869b8dad7e5b82351e452:src/componentes/Home.jsx
+            Cambios de prueba
+
+            <strong>16 de junio de 2025</strong>
+
         </p>
          <img 
             src="https://www.clacktv.cl/vtrcontent/media/2022/08/personajes-hora-de-aventura.png" 
