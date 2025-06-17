@@ -1,7 +1,5 @@
-import NavBar from "./NavBar";
-function App() {
+function Home() {
     return (<>
-    <NavBar/>
     <div>
         <h2>Bienvenido a mi pagina Web Jesus Soto Ledezma</h2>
         <hr />
@@ -17,7 +15,12 @@ function App() {
             Y diversión siempre tendrás
 
             ¡Es hora de aventura!
+<<<<<<< HEAD:src/componentes/App.jsx
             Cambios de prueba
+=======
+
+            16 de junio
+>>>>>>> 22a1ac7266039aaf923869b8dad7e5b82351e452:src/componentes/Home.jsx
         </p>
          <img 
             src="https://www.clacktv.cl/vtrcontent/media/2022/08/personajes-hora-de-aventura.png" 
@@ -28,4 +31,4 @@ function App() {
     </>)
 }
 
-export default App;
+export default Home;
