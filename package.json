@@ -1,6 +1,7 @@
 {
   "name": "webapp-jsl",
   "version": "0.1.0",
+   "homepage": "https://jesus2806.github.io/desarrolloWeb_JSL",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
