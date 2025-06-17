@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/desarrolloWeb_JSL/static/js/main.996bbffb.js",
+    "main.js": "/desarrolloWeb_JSL/static/js/main.183bd7ab.js",
     "index.html": "/desarrolloWeb_JSL/index.html",
-    "main.996bbffb.js.map": "/desarrolloWeb_JSL/static/js/main.996bbffb.js.map"
+    "main.183bd7ab.js.map": "/desarrolloWeb_JSL/static/js/main.183bd7ab.js.map"
   },
   "entrypoints": [
-    "static/js/main.996bbffb.js"
+    "static/js/main.183bd7ab.js"
   ]
 }
