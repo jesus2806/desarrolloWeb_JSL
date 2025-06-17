@@ -18,7 +18,7 @@ function Home() {
 
             Cambios de prueba
 
-            <strong>16 de junio de 2025</strong>
+            <strong>16 de junio del año 2025</strong>
 
         </p>
          <img 
