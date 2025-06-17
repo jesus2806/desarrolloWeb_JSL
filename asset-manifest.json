@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/desarrolloWeb_JSL/static/js/main.183bd7ab.js",
-    "index.html": "/desarrolloWeb_JSL/index.html",
-    "main.183bd7ab.js.map": "/desarrolloWeb_JSL/static/js/main.183bd7ab.js.map"
+    "main.js": "/webapp-jsl/static/js/main.183bd7ab.js",
+    "index.html": "/webapp-jsl/index.html",
+    "main.183bd7ab.js.map": "/webapp-jsl/static/js/main.183bd7ab.js.map"
   },
   "entrypoints": [
     "static/js/main.183bd7ab.js"
